@@ -17,123 +17,160 @@
         android:textSize="30sp"
         android:id="@+id/title2"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_toRightOf="@+id/Body"
+        android:layout_toEndOf="@+id/Body" />
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:id="@+id/Body"
         android:background="@mipmap/body"
-        android:layout_alignTop="@+id/Hat"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignTop="@+id/title2"
+        android:layout_toLeftOf="@+id/gridLayout"
+        android:layout_toStartOf="@+id/gridLayout"
+        android:layout_alignParentLeft="true" />
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:id="@+id/Hat"
         android:background="@mipmap/hat"
         android:visibility="invisible"
-        android:layout_alignTop="@+id/Arms"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/Body"
+        android:layout_alignEnd="@+id/Body"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true" />
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:id="@+id/Arms"
         android:background="@mipmap/arms"
         android:visibility="invisible"
-        android:layout_alignTop="@+id/Ears"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignTop="@+id/title2"
+        android:layout_alignRight="@+id/Body"
+        android:layout_alignEnd="@+id/Body"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true" />
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:id="@+id/Ears"
         android:background="@mipmap/ears"
         android:visibility="invisible"
-        android:layout_alignTop="@+id/Eyebrows"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/Body"
+        android:layout_alignEnd="@+id/Body"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true" />
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:id="@+id/Eyebrows"
         android:background="@mipmap/eyebrows"
         android:visibility="invisible"
-        android:layout_alignTop="@+id/Eyes"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignTop="@+id/title2"
+        android:layout_alignRight="@+id/Body"
+        android:layout_alignEnd="@+id/Body"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true" />
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:id="@+id/Eyes"
         android:background="@mipmap/eyes"
         android:visibility="invisible"
-        android:layout_alignTop="@+id/Glasses"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentBottom="false"
+        android:layout_alignRight="@+id/Body"
+        android:layout_alignEnd="@+id/Body"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true" />
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:id="@+id/Glasses"
         android:background="@mipmap/glasses"
         android:visibility="invisible"
-        android:layout_alignTop="@+id/Mouth"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignTop="@+id/title2"
+        android:layout_alignRight="@+id/Body"
+        android:layout_alignEnd="@+id/Body"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true" />
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:id="@+id/Mouth"
         android:background="@mipmap/mouth"
         android:visibility="invisible"
-        android:layout_alignTop="@+id/Moustache"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignTop="@+id/title2"
+        android:layout_alignRight="@+id/Body"
+        android:layout_alignEnd="@+id/Body"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true" />
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:id="@+id/Moustache"
         android:background="@mipmap/mustache"
         android:visibility="invisible"
-        android:layout_alignTop="@+id/Nose"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentBottom="false"
+        android:layout_alignRight="@+id/Body"
+        android:layout_alignEnd="@+id/Body"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true" />
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:id="@+id/Nose"
         android:background="@mipmap/nose"
         android:visibility="invisible"
-        android:layout_alignTop="@+id/Shoes"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentBottom="false"
+        android:layout_alignRight="@+id/Body"
+        android:layout_alignEnd="@+id/Body"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true" />
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:id="@+id/Shoes"
         android:background="@mipmap/shoes"
         android:visibility="invisible"
-        android:layout_below="@+id/title2"
-        android:layout_alignLeft="@+id/Body"
-        android:layout_alignStart="@+id/Body" />
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/title2"
+        android:layout_toStartOf="@+id/title2"
+        android:layout_alignEnd="@+id/Body"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/gridLayout"
-        android:layout_below="@+id/Body"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/Body"
-        android:layout_alignStart="@+id/Body"
-        android:layout_alignRight="@+id/Body"
-        android:layout_alignEnd="@+id/Body">
+        android:layout_alignLeft="@+id/instruction_text"
+        android:layout_alignStart="@+id/instruction_text"
+        android:layout_below="@+id/instruction_text">
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="135dp"
             android:layout_height="162dp"
-            android:layout_row="2"
+            android:layout_row="0"
             android:layout_column="0">
 
             <CheckBox
@@ -187,7 +224,7 @@
             android:orientation="vertical"
             android:layout_width="164dp"
             android:layout_height="wrap_content"
-            android:layout_row="2"
+            android:layout_row="0"
             android:layout_column="3">
 
             <CheckBox
@@ -239,7 +276,9 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/info_line"
         android:id="@+id/instruction_text"
-        android:layout_alignBottom="@+id/Body"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/title2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
+
